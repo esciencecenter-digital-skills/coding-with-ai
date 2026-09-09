@@ -117,9 +117,9 @@ licensing, research integrity, and data protection:
 
 8. Use the right AI models and tools for your needs:
     - Large AI models offer advanced capabilities. However, they also consume
-    significantly more computational resources, leading to higher CO2
-    emissions. To minimize environmental impact, consider using smaller models
-    for simpler tasks.
+    significantly more computational resources, leading to higher CO2 emissions,
+    land use, and water consumption. To minimize environmental impact, consider
+    using smaller models for simpler tasks.
     - The use of tools (i.e conversational tools, IDE-integrated assistants, or
     autonomous agents) depends on specific development tasks, your
     preferences, and project constraints.
