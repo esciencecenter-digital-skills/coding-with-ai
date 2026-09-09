@@ -27,7 +27,10 @@ licensing, research integrity, and data protection:
 1. AI platforms differ in how they handle submitted code and data. Check and
    configure the AI tool before use:
     - Check the terms of use, privacy settings, and code/data handling policies
-    of the AI platform.
+    of the AI platform. Look out specifically for "Zero Data Retention (ZDR)" and
+    "Data Processing Agreements (DPA)". These can differ by provider or model,
+    especially when using a routing provider that routes requests to models
+    hosted by other providers.
     - Ensure that your use of the tool is consistent with your institution's,
     funder's, and research project's requirements.
     - Where relevant, check whether your content (prompts and code) are used by the provider for
