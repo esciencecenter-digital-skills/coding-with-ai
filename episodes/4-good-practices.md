@@ -94,13 +94,20 @@ licensing, research integrity, and data protection:
     - Pay attention to copyright and software licenses. Read more about software
     license
     [here](https://esciencecenter-digital-skills.github.io/research-software-support/modules/licenses/info).
-    - When AI-generated code appears unusually specific or closely resembles
-    existing code, investigate its provenance before incorporating it.
     - Do not assume that modifying code removes the obligations associated with its original license.
     - Preserve required copyright notices, attribution, or other license requirements.
-    - When the provenance or licensing status of a substantial piece of generated
-    code is unclear, consider replacing it with an independently implemented
-    solution or seek institutional/legal advice.
+    - For substantial AI-generated code blocks, do a quick search for
+    distinctive variable names, comments, or algorithm structure in public
+    repositories (e.g., GitHub) or use code scanning tools if available. If a
+    close match turns up and its license is unclear or incompatible with your
+    project's license, reimplement the functionality yourself rather than
+    copying the matched code.
+    - Generic boilerplate usually needs no special investigation. If
+    AI-generated code contains unusually specific logic, comments, naming
+    constants, or a polished implementation tailored to your problem, spend a
+    few minutes checking whether a similar implementation already exists. When
+    in doubt, treat the result as a starting point for your own implementation
+    rather than incorporating it unchanged.
 
 6. AI assistance can become part of the research process. Documenting it makes
    the development process more transparent and potentially easier to reproduce.
