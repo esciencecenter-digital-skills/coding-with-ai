@@ -36,7 +36,9 @@ licensing, research integrity, and data protection:
     - Where relevant, check whether your content (prompts and code) are used by the provider for
     model training.
     - Keep in mind that not using your content for training does not necessarily
-    mean that the platform does not store it. **Never** share sensitive and private information.
+    mean that the platform does not store it. **Never** share sensitive and
+    private information. This includes exposing sensitive data stored in files,
+    e.g. `.env` files, and SSH keys.
     - Where relevant, check whether the "memory" feature of the AI tool is
     enabled and how it is set up to avoid the risk of cross-project
     contamination. Note that some platforms provide settings that separate
