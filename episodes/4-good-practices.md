@@ -131,6 +131,31 @@ licensing, research integrity, and data protection:
     autonomous agents) depends on specific development tasks, your
     preferences, and project constraints.
 
+::::::::::::::::::::::::::::::::::::: callout
+
+## Good practices when using Agents
+
+In addition to the above, when using agents, consider the following:
+
+1. Agents can, and will, make implicit assumptions about your project; careful
+   planning can mitigate this:
+    - Before implementing anything, spar with the agent about the task at hand,
+    until you have a shared understanding of what is to be built. Capture this
+    plan, in e.g. a Markdown file.
+    - Break the task down into smaller, isolated steps. Use a strong model with
+      good reasoning for this.
+    - Use fresh context (or even better: a different model, e.g. one that is
+        good for producing code, it does not need strong reasoning for
+        implementing a plan), and have the agent read the Markdown file and
+        implement the plan step-by-step.
+    - After each step, or a chunk of steps, clear the context (or even better:
+        use yet a different model, which is strong in analyzing code) and have
+        the agent review the changes made.
+2. Telling an agent to not touch these files is not enough, set up programmatic
+   guardrails, if necessary.
+
+:::::::::::::::::::::::::::::::::::::
+
 ## References
 
 ### Tips and guides for AI-assisted coding in science
