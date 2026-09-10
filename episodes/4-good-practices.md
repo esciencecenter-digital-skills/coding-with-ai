@@ -47,7 +47,11 @@ licensing, research integrity, and data protection:
 2. AI-generated code can contain bugs, incorrect assumptions, insecure
    practices, or scientifically inappropriate implementations. Treat
    AI-generated code as a draft:
-    - Review, understand, test, and validate every generated code before using it.
+    - Review, understand, test, and validate every generated code before using
+    it. In your prompts, ask the tool to make small, well-contained, testable
+    changes, for example, implementing one well-defined feature or fixing one
+    bug at a time. Review and understand each change before proceeding to the
+    next one.
     - Do not assume that code is correct simply because it looks plausible or
     runs successfully. Use unit tests and integration tests where appropriate.
     See this [Carpentries testing
@@ -153,6 +157,9 @@ In addition to the above, when using agents, consider the following:
         the agent review the changes made.
 2. Telling an agent to not touch these files is not enough, set up programmatic
    guardrails, if necessary.
+3. Because AI agents have limited context windows, it is useful to break codes
+   into small, well-contained, testable chunks. This also makes it easier to
+   review, understand, and validate each step of the implementation.
 
 :::::::::::::::::::::::::::::::::::::
 
