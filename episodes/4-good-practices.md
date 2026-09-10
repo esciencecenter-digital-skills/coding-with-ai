@@ -113,6 +113,28 @@ licensing, research integrity, and data protection:
     in doubt, treat the result as a starting point for your own implementation
     rather than incorporating it unchanged.
 
+::::::::::::::::::::::::::::::::::::: callout
+
+## Issues around copyright, and license of AI generated codes
+
+AI-generated code raises questions about copyright, licensing, and where the
+code comes from. In both the EU and US, copyright generally depends on human
+authorship and originality, so fully AI-generated code may not be protected,
+while sufficiently creative human contributions may be.
+
+There’s also the question of third-party code. Some tools can flag similarities
+with existing code, but there is no generally reliable automated way to
+determine where AI-generated code comes from or whether additional licensing
+requirements apply.
+
+The practices in this lesson are intended to reduce these risks. Researchers
+should also keep up with relevant developments and see how established
+open-source projects are handling AI-generated code, for example:
+https://www.apache.org/legal/generative-tooling.html and
+https://www.fsf.org/licensing/copilot/on-the-nature-of-ai-code-copilots.
+
+:::::::::::::::::::::::::::::::::::::
+
 6. AI assistance can become part of the research process. Documenting it makes
    the development process more transparent and potentially easier to reproduce.
     - Record which AI tool/model was used, where practical. For example, you can
